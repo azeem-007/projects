@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Popins',sans-serif;
+}
+body{
+    background:lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+.container .left_side{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+
+}
+.profile_text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.profile_text img{
+    width: 200px;
+    height: 200px;
+
+}
+.profile_text h2 {
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.profile_text span{
+    color: #fff;
+    font-weight: 300;
+
+}
+.social_icon span{
+    /* display: flex; */
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+
+}
+.social_icon i{
+    padding: 5px;
+    font-weight: 100;
+}
+
+.title{
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+    font: larger;
+    color: #fff;
+}
+
+.contact_info span{
+    margin-top: 40px;
+    color: #fff;
+    padding-left: 20px;
+    justify-content: center;
+
+}
+/* skills section */
+.skills{
+    text-decoration: none;
+    margin-top: 20px;
+    color: #fff;
+}
+.skills li{
+    margin-bottom: 15px;
+    list-style: none;
+}
+.skills .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background:#081921;
+    display: block;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.range{
+    position:absolute;
+    border-radius: 5px;
+    height: 5px;
+    background-color: #03a9f4;
+    margin-top: -5px;
+}
+/* certificate section */
+.certificates h5{
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 900;
+}
+.container .right_side{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+    position: relative;
+    background: #fff;
+
+}
+/* objection section */
+
+.objective h2{
+    padding-top: 20px;
+    color: #03a9f4;
+    border-bottom:3px solid red;
+}
+.objective p{
+    padding-top: 10px;
+    font-family: sans-serif;
+    justify-content: center;
+}
+/* work experience section */
+.work_experience .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.work_experience h2{
+    color: #03a9f4;
+    border-bottom: 3px solid red;
+    margin-top: 20px;
+}
+.work_experience .box .year_company{
+    min-width: 150px;
+}
+.work_experience .text{
+    font-family: sans-serif;
+    
+}
+.work_experience .year_company{
+    color:blue;
+}
+
+/* project section */
+.projects i{
+    padding: 15px 15px;
+
+}
+.projects h2{
+    color: #03a9f4;
+    margin-top: 20px;
+    border-bottom: 3px solid red;
+}
+.projects h4 {
+font-weight: 900;
+
+}
+.projects p{
+    font-family: sans-serif;
+    justify-content: center;
+    /* padding: 20px; */
+}
+/* education section start */
+.right_education h5{
+    margin: 5px;
+    font-weight: 800;
+}
+.education i{
+    padding: 10px;
+    /* background: #003147;
+    border-radius: 50%;
+    color: #fff; */
+}
+
+.education h2{
+    color: #03a9f4;
+    margin-top: 20px;
+    border-bottom: 3px solid red;
+}
+.education h3{
+    font-weight: 700;
+    justify-content: center;
+
+}
+.right_education p{
+    font-family: sans-serif;
+    justify-content: center;
+}
